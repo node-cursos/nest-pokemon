@@ -19,6 +19,12 @@ npm i -g @nestjs/cli
  docker-compose up -d
   ```
 
+
+5. Poblar base de datos consumiendo en endpoint
+ ```
+ GET: http://localhost:3000/api/v2/seed
+  ```
+
 ## Starck USado
 * MongoDB
 * Nest
